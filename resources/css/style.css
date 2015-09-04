@@ -1,12 +1,9 @@
-/*由外而內寫CSS*/
-/* ------------------------------------------ */
-/* 基本設定 */
-/* ------------------------------------------ */
+
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /*怪異盒模型*/
-    text-decoration: none; /*去除a的底線*/
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 html,
@@ -15,10 +12,10 @@ body
     background-color: #fff;
     color: #555;
     font-family: 'Roboto','微軟正黑體','arial';
-    font-weight: 300;  /*字體的粗細*/
+    font-weight: 300;
     font-size:20px;
-    text-rendering: optimizeLegibility; /*繪制文本時易讀性優先，會啟用字距調整 和 連字*/
-    overflow-x: hidden;  /*x捲軸的顯示*/
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 
 
 }
@@ -62,8 +59,8 @@ section
 }
 h1,h2,h3
 {
-    font-weight: 300; /*字體的粗細*/
-    text-transform: uppercase;/*所有字強制變為大寫*/
+    font-weight: 300;
+    text-transform: uppercase;
 
 }
 h1
@@ -72,8 +69,8 @@ h1
     margin-bottom: 20px;
     color: #fff;
     font-size: 240%;  /*因html font-size:20px; 　所以這裡為20px *2.4 */
-    word-spacing: 4px;  /*規定段落中的字間距是 1 像素,簡單的就是說 設定每個"英文單字"的間距*/
-    letter-spacing: 1px;  /*設置元素的字母間距*/
+    word-spacing: 4px;
+    letter-spacing: 1px;
 }
 h2
 {
@@ -90,7 +87,7 @@ h3
     margin-bottom: 15px;
 }
 h2:after{
-    content: ""; /*用after一定要先加content: ""; 也可在裡面打字 例如:content: "你好";*/
+    content: "";
     display: block;
     height: 2px;
     background-color: #e67e22;
@@ -128,9 +125,9 @@ h2:after{
     color: #e67e22;
     font-size: 120%;
     margin-right: 10px;
-    /*文字與icon垂直置中小技巧*/
+
     line-height: 120%;
-    vertical-align: middle;    /*vertical-align 垂直對齊*/
+    vertical-align: middle;
     margin-top: -5px;
 }
 /* --------- LINKS ----------- */
@@ -143,7 +140,7 @@ a:visited
     padding-bottom: 1px;
     border-bottom: 1px solid #e67e22;
     -webkit-transition: border-bottom 0.2s,color 0.2s;
-    transition: border-bottom 0.2s,color 0.2s;/*transition  針對寫的屬性進行動畫操作 (在這裡就是border-bottom 與color 轉場秒數)*/
+    transition: border-bottom 0.2s,color 0.2s;
 
 }
 a:hover,
@@ -217,13 +214,12 @@ input[type=submit]
 /* ------------------------------------------ */
 header
 {
-    /*background-image:-webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../images/headerBg.png");*/
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/headerBg.png");
-    /*background-image:url("../images/headerBg.png");*/
-    background-size: cover;/*cover 使背景圖放大至內容的大小，但此方法容易使背景圖因放大而失真*/
+
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/headerBg.jpg");
+    background-size: cover;
     background-position: center;
-    height: 100vh;/*全螢幕 1vh 單位代表 1% Viewport 的高度,viewport 代表的是「目前裝置（視窗）的寬高」，也可以說是可視區域範圍的意思。*/
-    background-attachment: fixed; /*設置背景圖像是否固定或者隨著頁面的其餘部分滾動*/
+    height: 100vh;
+    background-attachment: fixed;
 
 }
 header nav
@@ -235,13 +231,12 @@ header .header-text-box
 {
     position: absolute;
     width: 1140px;
-    /*置中的寫法*/
+
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);  /*translate(ox,oy):指定元素由參考點 2D 橫向移動 ox 距離、縱向移動 oy 距離*/
-    /*置中的寫法 End*/
+    transform: translate(-50%,-50%);
 }
 
 
@@ -279,7 +274,6 @@ header .header-text-box
 {
     padding: 8px 0;
     color: #fff;
-    /*text-transform: uppercase;*//*所有字強制變為大寫*/
     font-size: 90%; /*18/20*/
     border-bottom: 2px solid transparent; /*transparent 透明*/
     -webkit-transition:border-bottom 0.2s;
@@ -331,6 +325,15 @@ header .header-text-box
 .sticky .logo{display: none}
 .sticky .logo-black{
     display: block
+}
+
+/* ------------------------------------------ */
+/* ABOUTUS */
+/* ------------------------------------------ */
+
+.section-about-us .long-copy
+{
+    margin-bottom: 30px;
 }
 
 
@@ -422,7 +425,7 @@ header .header-text-box
 {
     margin-bottom: 50px;
 }
-.works-step:last-of-type /*last-of-type:works-step的最後一個元素*/
+.works-step:last-of-type
 {
     margin-bottom: 80px;
 }
@@ -458,129 +461,7 @@ header .header-text-box
 }
 
 
-/* ------------------------------------------ */
-/* CITIES */
-/* ------------------------------------------ */
 
-.box img
-{
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-}
-
-.city-feature
-{
-    margin-bottom: 5px;
-}
-
-
-/* ------------------------------------------ */
-/* TESTIMONIALS */
-/* ------------------------------------------ */
-
-.section-testimonials
-{
-    background:-webkit-linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../images/back-customers.jpg");
-    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../images/back-customers.jpg");
-    background-size: cover;
-    color: #fff;
-    background-attachment: fixed; /*屬性設置背景圖像是否固定或者隨著頁面的其餘部分滾動*/
-
-}
-blockquote
-{
-    padding: 2%;
-    font-style: italic;
-    line-height: 145%;
-    position: relative;
-    margin-top: 40px; ;
-}
-blockquote:before
-{
-    content: "\201C";   /*符號可參考https://css-tricks.com/snippets/html/glyphs/*/
-    font-size: 500%;
-    display: block;
-    position: absolute; /*relative對應於blockquote標籤*/
-    top: -5px;
-    left: -3px;
-}
-cite
-{
-    font-size: 90%;
-    margin-top: 25px;
-    display: block;
-
-}
-
-cite img
-{
-    height: 45px;
-    border-radius: 50%;
-    margin-right: 10px;
-    vertical-align: middle; /*垂直對齊(置中)"圖像"*/
-}
-/* ------------------------------------------ */
-/* PLANS */
-/* ------------------------------------------ */
-.section-plans
-{
-    background-color: #f4f4f4;
-}
-.plan-box
-{
-    background-color: #fff;
-    border-radius: 5px;
-    width: 90%;
-    margin-left: 5%;
-    box-shadow:0 2px 2px  #e3e3e3;
-
-}
-
-.plan-box div
-{
-    padding: 15px;
-    border-bottom: 1px solid #e8e8e8;
-}
-.plan-box div:first-child
-{
-    background-color: #fcfcfc;
-    /*圓角*/
-    border-top-left-radius:5px ;
-    border-top-right-radius:5px ;
-
-}
-.plan-box div:last-child
-{
-    text-align: center; /*text-align: center; 對inline, inline-block都有效*/
-    border: 0;
-
-}
-
-.plan-price
-{
-    font-size: 300%;
-    margin-bottom: 10px;
-    font-weight: 100;
-    color: #e67e22;
-}
-
-.plan-price span
-{
-    font-size: 30%;/*.plan-price的大小的30% (因為繼承plan-price的大小)*/
-    margin-bottom: 10px;
-    font-weight: 300;
-}
-
-.plan-price-meal
-{
-    font-size: 80%;
-}
-
-.plan-box ul li
-{
-    padding: 5px 0;
-}
 
 /* ------------------------------------------ */
 /* FORM */
@@ -679,7 +560,7 @@ footer
     display: inline-block;
     margin-right: 20px;
 }
-/*因為最後一個的多了maring-right 所以將他拿掉*/
+
 .footer-nav li:last-child,
 .social-links li:last-child
 {
