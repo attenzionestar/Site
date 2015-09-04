@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b031fbf2-e1fe-4491-bd09-b75445755f8e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/IMG_0597 (2)-min (2).jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/queries.css" afterPath="$PROJECT_DIR$/resources/css/queries.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/style.css" afterPath="$PROJECT_DIR$/resources/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -28,18 +28,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.0">
-              <caret line="75" column="22" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state vertical-scroll-proportion="18.296297">
+              <caret line="51" column="83" selection-start-line="51" selection-start-column="83" selection-end-line="51" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7311644">
-              <caret line="216" column="101" selection-start-line="216" selection-start-column="101" selection-end-line="216" selection-end-column="101" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="228" column="84" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queries.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/css/queries.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.34931508">
+              <caret line="151" column="59" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,6 +69,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/resources/css/style.css" />
+        <option value="$PROJECT_DIR$/resources/css/queries.css" />
       </list>
     </option>
   </component>
@@ -337,16 +348,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.0">
-          <caret line="75" column="22" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state vertical-scroll-proportion="18.296297">
+          <caret line="51" column="83" selection-start-line="51" selection-start-column="83" selection-end-line="51" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7311644">
-          <caret line="216" column="101" selection-start-line="216" selection-start-column="101" selection-end-line="216" selection-end-column="101" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="228" column="84" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/queries.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34931508">
+          <caret line="151" column="59" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
           <folding />
         </state>
       </provider>
